@@ -1,0 +1,132 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('/Projects/Fitness/img/b.jpg');
+    background-size: 1300px;
+}
+
+.left {
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    display: inline-block;
+    /*border: 2px solid red;*/
+}
+
+.mid {
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+    /*  border: 2px solid green;*/
+}
+
+.right {
+    position: absolute;
+    right: 45px;
+    top: 22px;
+    display: inline-block;
+    /*border: 2px solid red;*/
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 15px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+.left img {
+    width: 78px;
+}
+
+.left div {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.btn {
+    margin: 0px 9px;
+    background-color: black;
+    color: aliceblue;
+    padding: 4px 14px;
+    border: 2px grey;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background-color: rgb(167, 116, 140);
+}
+
+.container {
+    /*border: 2px solid greenyellow;*/
+    margin: 106px 400px;
+    padding: 10px 20px;
+    width: 33%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.form-group input {
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    width: 380px;
+    padding: 3px;
+    border: 2px solid yellow;
+    font-size: 18px;
+}
+
+.container h2 {
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.container button {
+    display: block;
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+
+#home {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.para {
+    align-items: center;
+    size: 3rev;
+}
+
+.contact {
+    margin: auto;
+    padding: 10px 20px;
+    width: 33%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.contact btn1 {
+    align-content: center;
+    background-color: white;
+}
